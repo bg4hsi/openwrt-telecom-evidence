@@ -1,0 +1,9 @@
+# Optional organizer/export settings. Copy to /etc/telecom-evidence-organizer.conf.
+BASE_DIR="/root/telecom-evidence"
+EXPORT_ROOT="/root/telecom-evidence-export"
+
+# Remote backup is disabled while VPS_HOST is blank.
+VPS_HOST=""
+VPS_USER="root"
+VPS_DIR="/root/telecom-evidence-backup"
+SSH_KEY="/root/.ssh/telecom_evidence_backup_key"

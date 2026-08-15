@@ -1,0 +1,24 @@
+# OpenWrt / iStoreOS telecom-evidence Community configuration
+# Copy to /etc/telecom-evidence.conf and keep mode 0600.
+
+BASE_DIR="/root/telecom-evidence"
+WAN_IF="pppoe-wan"
+
+# Optional controlled endpoints. Blank means disabled; no private server is contacted.
+TEST_SERVER_IP=""
+IPERF_HOST=""
+IPERF_PORT="5201"
+HTTP_UPLOAD_URL=""
+HTTPS_UPLOAD_URL=""
+HTTPS_CA_FILE="/etc/telecom-evidence-ca.pem"
+
+# Optional Ookla server IDs separated by spaces. 3633 is only an example
+# (historically China Telecom Shanghai); availability/ownership may change.
+SPEEDTEST_SERVER_IDS=""
+
+TEST_FILE_MB="32"
+IPERF_SECONDS="15"
+PCAP_ENABLED="0"
+PCAP_SNAPLEN="256"
+MIN_FREE_KB="2097152"
+STRICT_CLEAN_ENV="0"
