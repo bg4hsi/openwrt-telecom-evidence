@@ -1,5 +1,15 @@
 # OpenWrt Telecom Evidence Community
 
+[中文介绍](#中文介绍) | [English introduction](#english-introduction)
+
+## 中文介绍
+
+适用于 OpenWrt 和 iStoreOS 的 Shell 网络测速与留证工具，支持原始结果保存、SHA-256 清单、跨次运行证据链，以及每日采集、封存、校验、归档和可选 SSH 备份。外部测速、抓包和定时任务需要按说明配置或启用，便于按需开展网络排查和资料整理。
+
+## English introduction
+
+A collection of shell tools for network measurement and evidence collection on OpenWrt and iStoreOS. It preserves raw results, creates SHA-256 manifests and links between collection runs, and supports daily collection, sealing, verification, archiving, and optional SSH backup. External measurements, packet capture, and scheduled jobs require configuration or explicit activation. The tools help organize network troubleshooting records; checksums alone do not establish their origin or legal admissibility.
+
 [中文](#中文说明) | [English](#english)
 
 ## 中文说明
@@ -169,3 +179,5 @@ If you find this repository useful, you can optionally support its maintainer, *
 </p>
 
 使用支付宝扫一扫，或点击图片查看原图。感谢你的支持！
+
+Scan with Alipay, or click the image to view the original. Thank you for your support!
